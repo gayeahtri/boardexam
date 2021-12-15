@@ -14,7 +14,7 @@ public class postgresql {
     public static void main(String[] args) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/project";
         String username = "postgres";
-        String password = "2002";
+        String password = "tpxsubxs";
         utility utility = new utility(username, password, jdbcURL);
         Connection con = utility.getConnection();
 
