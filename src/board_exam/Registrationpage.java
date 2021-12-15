@@ -36,7 +36,7 @@ public class Registrationpage {
 
         String jdbcURL = "jdbc:postgresql://localhost:5432/project";
         String username = "postgres";
-        String password = "2002";
+        String password = "tpxsubx";
         utility utility = new utility(username, password, jdbcURL);
         Connection con = utility.getConnection();
         Registrationpage registrationpage = new Registrationpage(con);
